@@ -242,5 +242,4 @@ sudo apt-get install jenkins
 
 #### Test Slave
 - Create Pipeline
-- 
 
