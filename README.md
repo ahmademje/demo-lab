@@ -42,6 +42,10 @@ echo \
 
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+sudo systemctl enable docker
+sudo systemctl daemon-reload
+sudo systemctl restart docker
 ```
 ## Install Kubernetes
 ```
