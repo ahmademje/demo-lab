@@ -38,7 +38,7 @@ spec:
       volumes:
       - name: wordpress-pv
         persistentVolumeClaim:
-          claimName: wordpress-pv
+          claimName: wordpress-pvc
 ---
 apiVersion: v1
 kind: Service
@@ -58,3 +58,4 @@ spec:
     app: wordpress
     tier: frontend
   type: LoadBalancer
+
